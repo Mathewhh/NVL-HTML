@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Práctica de Formularios - NVL-HTML-P10a</title>
+</head>
+<body>
+	<H1>¡Queremos saber tu experiencia!</H1>
+
+	<form method="post" action="miservidor-php">
+		<div>
+			<label for="codigo-postal">Código Postal:</label>
+      		<input id="codigo-postal" type=”number”>
+
+		</div>
+		<div>
+			<label for=”satisfaccion”>¿Nivel de satisfacción?:</label>
+		    <select id=”satisfaccion”>
+		        <option value=”1”>1</option>
+		        <option value=”2”>2</option>
+		        <option value=”3”>3</option>
+		        <option value=”4”>4</option>
+		        <option value=”5”>5</option>
+		    </select>
+
+		</div>
+		<div>
+			<label for="email">Email:</label>
+      		<input id="email" type=”text”>
+
+		</div>
+		<div>
+			<label for="puntos-positivos">¿Qué es lo que más te ha gustado del producto?:</label>
+    		<textarea id="puntos-positivos"></textarea>
+
+		</div>
+		<div>
+			<label for="puntos-negativos">¿Qué es lo que menos te ha gustado del producto?:</label>
+    		<textarea id="puntos-negativos"></textarea>
+
+		</div>
+		<div>
+			<label for="caracteristicas-producto">¿Nivel de satisfacción?:</label>
+		    <select id="caracteristicas-producto">
+		        <option value=”Excelente”>Excelente</option>
+		        <option value=”Bueno”>Bueno</option>
+		        <option value=”Regular”>Regular</option>
+		        <option value=”Pésimo”>Pésimo</option>
+		        
+		    </select>
+			
+		</div>
+		<div>
+			 <label for="caracteristicas-producto">Características del producto:</label>
+				<input type="radio" name="caracteristicas-producto" value="Excelente" required> Excelente
+				<input type="radio" name="caracteristicas-producto" value="Bueno"> Bueno
+				<input type="radio" name="caracteristicas-producto" value="Regular"> Regular
+				<input type="radio" name="caracteristicas-producto" value="Pésimo"> Pésimo
+		
+
+		</div>
+		
+
+
+
+
+
+	</form>
+
+</body>
+</html>
